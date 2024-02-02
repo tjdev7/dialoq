@@ -27,8 +27,12 @@ export default function Home() {
           </a>
         </div>
       </div>
-
+{/* 
       <div className={styles.center}>
+ 
+
+
+
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -37,9 +41,12 @@ export default function Home() {
           height={37}
           priority
         />
-      </div>
+      </div> */}
+      <h1>home</h1>
 
-      <div className={styles.grid}>
+        <button>Sign In</button>
+
+      {/* <div className={styles.grid}>
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
@@ -49,7 +56,7 @@ export default function Home() {
           <h2>
             Docs <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>Find in-depth information about Next.js features and API. tesssstststs</p>
         </a>
 
         <a
@@ -89,7 +96,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
   )
 }
